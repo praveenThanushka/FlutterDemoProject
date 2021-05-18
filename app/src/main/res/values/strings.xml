@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NavigationDrawer</string>
+    <string name="hello_email_fragment">Hello email fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email_title">Email</string>
+    <string name="alert_title">Alert</string>
+    <string name="dialer_title">Dialer</string>
+    <string name="info_title">Info</string>
+    <string name="map_title">Map</string>
+    <string name="options_title">Options</string>
+    <string name="open_drawer_message">Open</string>
+    <string name="close_drawer_message">Close</string>
+</resources>

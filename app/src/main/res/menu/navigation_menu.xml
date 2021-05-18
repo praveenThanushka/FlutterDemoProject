@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/emailItem"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="@string/email_title"
+            android:checked="true"/>
+        <item
+            android:id="@+id/infoItem"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="@string/info_title" />
+        <item
+            android:id="@+id/alertItem"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="@string/alert_title" />
+    </group>
+
+    <item android:title="@string/options_title">
+        <menu>
+            <item
+                android:id="@+id/dialerItem"
+                android:icon="@android:drawable/ic_dialog_dialer"
+                android:title="@string/dialer_title" />
+            <item
+                android:id="@+id/mapItem"
+                android:icon="@android:drawable/ic_dialog_map"
+                android:title="@string/map_title" />
+        </menu>
+    </item>
+</menu>
